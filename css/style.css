@@ -2971,7 +2971,7 @@ a:hover{
 	font-size: 14px;
 	line-height:30px;
 }
-#ajax-form input{
+#ajax-form input[type="text"]{
 	position:relative;
 	width: 100%;
 	padding-left:20px;
@@ -3004,8 +3004,35 @@ a:hover{
 	-webkit-transition: border-bottom 0.3s, color 0.3s;
 	transition: border-bottom 0.3s, color 0.3s;
 }
+
+
+#send {
+	background: #003BFF;
+	padding: 12px 30px;
+	box-sizing: border-box;
+	font-size: 13px;
+	color: white;
+	font-family: "Graphik Web";
+	border-radius: 3px;
+	border: none;
+	box-shadow: 0px 3px 6px rgba(0,0,0,0.08);
+	cursor: pointer !important;
+	letter-spacing: 0.5px;
+	margin-top: 20px;
+}
+
+
+
+#send:hover {
+	color: white !important;
+}
+
+
+
+
+
 #ajax-form textarea,
-#ajax-form input {
+#ajax-form input[type="text"] {
 	border-bottom:1px solid rgba(200,200,200,.7);
 }
 .error {
