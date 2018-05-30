@@ -801,6 +801,9 @@ body.nav-active .nav__list-item:nth-child(10) {
 	letter-spacing: 2px;
 	text-align: left;
 }
+
+
+
 .hero-center-wrap.big h1{
 	font-size: 5vw;
 	line-height: 1;
@@ -2185,6 +2188,12 @@ a:hover{
 	background-color: #212121;
 	height: 1px;
 	t-index: 2;
+}
+
+
+
+.visit-site {
+    background: blue;
 }
 
 /* #Project nav
